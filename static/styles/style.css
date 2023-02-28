@@ -2,15 +2,35 @@ span {
     font-style: italic;
 }
 
-p {
-    background-color: lightgreen;
-    font-size: 24px;
-    display: inline;
+/*content*/
+.list-conteiner {
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 20px;
 }
 
-.container {
+.list-conteiner>p {
     text-align: center;
-    display: inline;
-    width: 500px;
-    background-color: darkgrey;
+    font-weight: bold;
 }
+
+.img-contaner {
+    float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.img-contaner>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-html5 {
+    max-width: 70px;
+}
+
+/*Верхняя навигационная панель*/
